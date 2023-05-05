@@ -22,32 +22,25 @@ Interactive maps and infographics on the website help users visualise the pandem
 Code development utilised react.I initially found it difficult to use, but after some investigation, I learned everything I needed to build the website and produced a logo in Figma to improve our perspective.
 
 Bootstrap with Redux Toolkit is a front-end programming framework for websites and online apps that allows responsive development.
-[3:09 pm, 05/05/2023] Sairam UK: The resort website is essential for recruiting and maintaining tourists. A well-designed website can display the resort's amenities, services, and unique features while facilitating reservations.
-This website was created to offer high-quality resorts to travellers who wish to enjoy their time.
-Most people don't know about the resorts they wish to stay at, and if they come to a new area for an event and don't enjoy the ambience, it can depress them and influence their view of the place.
-Resort websites are visually appealing and immersive, portraying the resort and its environs. 
-High-quality photos, films, and graphics may convey the property's beauty and grandeur.
-I also chose the website's colour scheme, font, and layout to create a cohesive and engaging user experience. I made a beautiful and effective website, so visitors stay longer and book.
-I used violet, black, sky blue, and white.
-Colours I used. Landing, home, and resort booking pages were designed. I used 60,20,20 colours.
-User data includes name and email. Because if individuals are travelling from other locations to a new city and staying in the resort, I need to know the basic information to tell the person who knows them if something happens.
+The Covid-19 outbreak has spread all over the world, and it can be hard to keep track of how many cases there are. There are a lot of websites with up-to-date details on Covid-19 cases, which is good news.
+One of these is the Covid Cases Website, which has a lot of information about Covid-19 cases around the world.
 
-I used material ui and react. 
+The Covid Cases Website shows the amount of confirmed cases, deaths, and recoveries due to Covid-19 around the world in real time.
+Users can sort the data by country, region, or date range to learn more about what is going on in a certain place.
 
-Web application framework React.js is popular. It lets developers build SEO-friendly, interactive components. React.js improves maintenance and productivity. React.js projects improve with Material UI integration.
+People will find it helpful to look at all of the Covid situations that are going around the world. Covid had an effect on every business, stock, and income in the world. As a result, there is a recession everywhere, and we will know the details of every accident that happened in our city or town. On the page, we can learn about first aid for Covid and how to take care of ourselves.
 
-Material-UI is a package that lets us import and use components to construct user interfaces in React apps. This saves developers a lot of time.
-Google's UI concepts inspired Material-UI widgets. Developers can easily create visually appealing apps.
+On the home page, I'd like to list the Covid 19's symptoms. I'd like to add data about the Covid cases, such as how many people get sick from the Covid and how many are cured, how many cases are still going on, and how many people have died. This is a list of the total number of people who were touched by the Covid.
 
-React is great for building interactive mobile, web, and other apps.
-React's popularity is growing for good reason.
+In the future, I'd like to add the people's vaccination times so that they can schedule their appointment close to where they are staying.
 
-NumberList uses JavaScript (map function) in React. JSX is a simple HTML tag with no characteristics. The render function renders the HTML file's root element's NumberList component.
+I used the COVID-19 API, which is a Restful API that lets users get real-time and historical data about coronavirus, such as the total and active cases, number of tests done, and deaths around the world and at the country level.
+The API is free to use and has three easy endpoints that can be used to build a wide range of apps, such as Covid-19 tracker websites and apps and machine learning models that can be used to build algorithms that can predict and predict the future. The data are updated every 15 minutes, so users can get a picture of the coronavirus in their area that is very close to real time.
+Also, the API is set up in a way that makes it easy for first-time users to use. The COVID-19 API keeps things easy by only offering three simple endpoints that can be used to provide the following functions:
 
-Traditional UI browser testing is difficult to setup. React testing requires little configuration.
+The Covid Cases website is easy to use and has a simple style that makes it easy for users to find the information they need quickly.
+The website also has live maps and charts that show the data visually and make it easier for people to understand how big the pandemic is.
 
-React manages this beautifully. It avoids layout trashing, when the browser recalculates everything when the DOM element changes.
+I used react to write the code.At first, it was hard for me to figure out how to use it, but I did some study and learned everything I needed to know to build a website. I also made a logo in Figma, which might change how we see it.
 
-
-Website usability is crucial. Visitors should easily explore the site, obtain the information they need, and book their stay without hassle.
-The website should have straightforward menus, navigation, and booking to do this. Since many people will use smartphones and tablets, the website should be mobile-friendly.
+I've used boot strap and redux tool kit because it's a front-end development framework for making websites and web apps, and it lets me do flexible development.
