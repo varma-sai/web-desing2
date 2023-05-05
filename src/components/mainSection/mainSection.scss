@@ -1,0 +1,64 @@
+$largeScreen: 77.5em;
+$mediumScreen: 54.6875em;
+
+.mainSection {
+    margin: 0rem 12.8rem;
+    margin-bottom: 20rem;
+    font-size: 1.3rem;
+    @media screen and(max-width: $largeScreen) {
+        margin: 16rem auto;
+        justify-content: center;
+        width: 60rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    @media screen and(max-width: $mediumScreen) {
+        width: 32rem;
+    }
+    &-img-container {
+        @media screen and(max-width: $largeScreen) {
+            position: static;
+            img {
+                width: 100%;
+                margin-bottom: 6rem;
+            }
+        }
+        position: relative;
+        &-img {
+            z-index: -1;
+        }
+    }
+    &-text {
+        font-family: "Alata", sans-serif;
+        position: absolute;
+        background-color: #fff;
+        z-index: 1;
+        left:270px;
+        top:350px;
+        @media screen and(max-width: $largeScreen) {
+            display: flex;
+            flex-direction: column;
+            position: static;
+            padding: 0;
+            text-align: center;
+        }
+        .h2 {
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 4.6rem;
+            margin-bottom: 2.4rem;
+            @media screen and(max-width: $mediumScreen) {
+                font-size: 3rem;
+            }
+        }
+        p {
+            color: hsl(0, 0%, 55%);
+            line-height: 1.6;
+            font-size: 1.4rem;
+            font-weight: 300;
+            @media screen and(max-width: $largeScreen) {
+                max-width: 35ch;
+                margin: auto;
+            }
+        }
+    }
+}

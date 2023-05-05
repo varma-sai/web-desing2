@@ -1,0 +1,80 @@
+// 875px
+$mediumScreen: 54.6875em;
+.navbar {
+    // position: relative;
+    font-family: "Alata", sans-serif;
+    margin: 6.4rem 12.8rem;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    display: flex;
+    @media screen and(max-width: $mediumScreen) {
+        margin: auto;
+        margin: 3.4rem 3rem;
+        font-size: 1rem;
+    }
+    .links {
+        display: flex;
+        // display: none;
+        gap: 2rem;
+        @media screen and(max-width: $mediumScreen) {
+            display: none;
+        }
+        .link {
+            color: inherit;
+            list-style: none;
+            text-decoration: none;
+            position: relative;
+            // border: 2px solid red;
+            &:hover::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 0.175rem;
+                background-color: white;
+                left: 0;
+                bottom: -4px;
+            }
+        }
+    }
+    .menu {
+        cursor: pointer;
+    }
+    .closeMenu {
+        z-index: 1;
+        // overflow: hidden;
+        margin-left: -50vw;
+        left: 50%;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        background-color: #FFC417;
+        display: flex;
+        border: 5x solid red;
+        flex-direction: column;
+        .logo-and-Menu {
+            margin: 3.4rem 3rem;
+            // margin-bottom: 8rem;
+            margin-bottom: 12rem;
+            display: flex;
+            justify-content: space-between;
+            .close-img {
+                width: 2.4rem;
+            }
+        }
+        .menuLinks {
+            font-family: "Josefin Sans", sans-serif;
+            margin-left: 3rem;
+            font-size: 3.6rem;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .link {
+                text-decoration: none;
+                color: hsl(0, 0%, 100%);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

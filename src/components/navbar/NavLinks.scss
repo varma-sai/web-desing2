@@ -1,0 +1,25 @@
+// 875px
+$mediumScreen: 54.6875em;
+.links {
+    display: flex;
+    gap: 2rem;
+    .link {
+        color: inherit;
+        list-style: none;
+        text-decoration: none;
+        position: relative;
+        // border: 2px solid red;
+        @media screen and(max-width: $mediumScreen) {
+            // display: none;
+        }
+        &:hover::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 0.175rem;
+            background-color: white;
+            left: 0;
+            bottom: -4px;
+        }
+    }
+}
