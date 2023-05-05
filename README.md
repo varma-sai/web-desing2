@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+Live Demo: (https://6455276106844b00a28a074c--chimerical-gingersnap-8462c2.netlify.app/worldWide)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The global COVID-19 pandemic makes tracking instances difficult. Fortunately, many websites report Covid-19 cases.
+The Covid Cases Website covers global COVID-19 cases.
 
-## Available Scripts
+The Covid Cases Website tracks global Covid-19 cases, fatalities, and recoveries in real time.
+To gain a better picture of a region, users can filter the data by country, region, or chronological range.
 
-In the project directory, you can run:
+People should review all Covid cases worldwide. Covid had affected all company, stocks, and revenue around the world, causing a global recession. We shall know the specifics of each accident in our city. The website provides Covid first aid information.
 
-### `npm start`
+The Covid 19 symptoms are on the homepage. I would like to add Covid case statistics, such as how many persons are infected, recovered, active, and dead. This is the Covid-affected population.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I'd like to give them immunisation dates so they may arrange appointments near their hotel.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I used COVID-19 API, a Restful API that provides real-time and historical coronavirus information, including total and active cases, number of tests, and deaths worldwide and by nation.
+The API's three simple endpoints can be used to develop Covid-19 tracker websites and apps, predictive and forecasting algorithms, and more. Users can get a near-real-time coronavirus picture for their location by checking the statistics every 15 minutes.
+The API is also designed for beginners. The COVID-19 API offers three basic endpoints for the following functions, unlike other services that offer several endpoints for sophisticated operations:
 
-### `npm test`
+The Covid Cases Website's basic style makes it easy to find information.
+Interactive maps and infographics on the website help users visualise the pandemic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Code development utilised react.I initially found it difficult to use, but after some investigation, I learned everything I needed to build the website and produced a logo in Figma to improve our perspective.
 
-### `npm run build`
+Bootstrap with Redux Toolkit is a front-end programming framework for websites and online apps that allows responsive development.
+[3:09 pm, 05/05/2023] Sairam UK: The resort website is essential for recruiting and maintaining tourists. A well-designed website can display the resort's amenities, services, and unique features while facilitating reservations.
+This website was created to offer high-quality resorts to travellers who wish to enjoy their time.
+Most people don't know about the resorts they wish to stay at, and if they come to a new area for an event and don't enjoy the ambience, it can depress them and influence their view of the place.
+Resort websites are visually appealing and immersive, portraying the resort and its environs. 
+High-quality photos, films, and graphics may convey the property's beauty and grandeur.
+I also chose the website's colour scheme, font, and layout to create a cohesive and engaging user experience. I made a beautiful and effective website, so visitors stay longer and book.
+I used violet, black, sky blue, and white.
+Colours I used. Landing, home, and resort booking pages were designed. I used 60,20,20 colours.
+User data includes name and email. Because if individuals are travelling from other locations to a new city and staying in the resort, I need to know the basic information to tell the person who knows them if something happens.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I used material ui and react. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Web application framework React.js is popular. It lets developers build SEO-friendly, interactive components. React.js improves maintenance and productivity. React.js projects improve with Material UI integration.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Material-UI is a package that lets us import and use components to construct user interfaces in React apps. This saves developers a lot of time.
+Google's UI concepts inspired Material-UI widgets. Developers can easily create visually appealing apps.
 
-### `npm run eject`
+React is great for building interactive mobile, web, and other apps.
+React's popularity is growing for good reason.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+NumberList uses JavaScript (map function) in React. JSX is a simple HTML tag with no characteristics. The render function renders the HTML file's root element's NumberList component.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Traditional UI browser testing is difficult to setup. React testing requires little configuration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+React manages this beautifully. It avoids layout trashing, when the browser recalculates everything when the DOM element changes.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Website usability is crucial. Visitors should easily explore the site, obtain the information they need, and book their stay without hassle.
+The website should have straightforward menus, navigation, and booking to do this. Since many people will use smartphones and tablets, the website should be mobile-friendly.
